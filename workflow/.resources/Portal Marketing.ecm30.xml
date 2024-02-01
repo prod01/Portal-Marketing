@@ -1,0 +1,1486 @@
+<list>
+  <ProcessDefinition>
+    <processDefinitionPK>
+      <companyId>1</companyId>
+      <processId>Portal Marketing</processId>
+    </processDefinitionPK>
+    <processDescription>Portal Marketing</processDescription>
+    <instruction></instruction>
+    <active>true</active>
+    <publicProcess>true</publicProcess>
+    <volumeId>Default</volumeId>
+    <categoryId></categoryId>
+    <managerEngineAllocationId>Papel</managerEngineAllocationId>
+    <managerEngineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;Gestor_Portal_Marketing&lt;/Role&gt;&lt;/AssignmentController&gt;</managerEngineAllocationConfiguration>
+    <snapshotFrequency>0</snapshotFrequency>
+    <baseDay>0</baseDay>
+    <baseMonth>0</baseMonth>
+    <periodId>Default</periodId>
+    <uniqueCardVersion>true</uniqueCardVersion>
+    <keyWord></keyWord>
+    <complementsLevel>1</complementsLevel>
+    <notifyRequisitionerComplements>true</notifyRequisitionerComplements>
+    <notifyManagerComplements>false</notifyManagerComplements>
+    <deadlineTime>0</deadlineTime>
+    <warningDeadlineTime>0</warningDeadlineTime>
+    <notifyAuthorityComplements>true</notifyAuthorityComplements>
+  </ProcessDefinition>
+  <ProcessDefinitionVersion>
+    <processDefinitionVersionPK>
+      <companyId>1</companyId>
+      <processId>Portal Marketing</processId>
+      <version>13</version>
+    </processDefinitionVersionPK>
+    <versionDescription></versionDescription>
+    <formId>0</formId>
+    <editionMode>true</editionMode>
+    <updateAttachmentsVersion>false</updateAttachmentsVersion>
+    <controlsAttachmentsSecurity>false</controlsAttachmentsSecurity>
+    <active>true</active>
+    <blockedVersion>false</blockedVersion>
+    <counterSign>false</counterSign>
+    <openInstances>0</openInstances>
+    <bpmnVersion>2</bpmnVersion>
+    <processStates/>
+    <favorito>false</favorito>
+    <inheritFormSecurity>false</inheritFormSecurity>
+    <mobileReady>true</mobileReady>
+  </ProcessDefinitionVersion>
+  <list>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>8</sequence>
+      </processStatePK>
+      <stateName>Start</stateName>
+      <stateDescription>Start</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>true</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>125</positionX>
+      <positionY>64</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>10</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>9</sequence>
+      </processStatePK>
+      <stateName>Solucionar Demanda </stateName>
+      <stateDescription>Solucionar Demanda </stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName>SLA</deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Campo Formulário</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;FormField&gt;CHAPATECNICO&lt;/FormField&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>90</positionX>
+      <positionY>187</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId>Central de Cadastro - Cli/For</periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>33</sequence>
+      </processStatePK>
+      <stateName>Validação Técnica</stateName>
+      <stateDescription>Validação Técnica</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>21600</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;Validacao_Tecnica_Escopo&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>90</positionX>
+      <positionY>332</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId>Central de Cadastro - Cli/For</periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>40</sequence>
+      </processStatePK>
+      <stateName>Finalização </stateName>
+      <stateDescription>Finalização </stateDescription>
+      <instruction></instruction>
+      <deadlineTime>14400</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Executor Atividade</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;BaseActivity&gt;9&lt;/BaseActivity&gt;&lt;Returns&gt;Last&lt;/Returns&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>644</positionX>
+      <positionY>195</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId>Central de Cadastro - Cli/For</periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>44</sequence>
+      </processStatePK>
+      <stateName>Validar Solução</stateName>
+      <stateDescription>Validar Solução</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>31680</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Executor Atividade</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;BaseActivity&gt;8&lt;/BaseActivity&gt;&lt;Returns&gt;Last&lt;/Returns&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>350</positionX>
+      <positionY>44</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId>Central de Cadastro - Cli/For</periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>49</sequence>
+      </processStatePK>
+      <stateName>Revisão </stateName>
+      <stateDescription>Revisão </stateDescription>
+      <instruction></instruction>
+      <deadlineTime>31680</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Executor Atividade</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;BaseActivity&gt;9&lt;/BaseActivity&gt;&lt;Returns&gt;Last&lt;/Returns&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>510</positionX>
+      <positionY>194</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId>Central de Cadastro - Cli/For</periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>57</sequence>
+      </processStatePK>
+      <stateName>Revisão</stateName>
+      <stateDescription>Revisão</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>31680</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Campo Formulário</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;FormField&gt;CHAPATECNICO&lt;/FormField&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>250</positionX>
+      <positionY>198</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId>Central de Cadastro - Cli/For</periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>52</sequence>
+      </processStatePK>
+      <stateName>Exclusive</stateName>
+      <stateDescription>Exclusive</stateDescription>
+      <joint>false</joint>
+      <initialState>false</initialState>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <automatic>true</automatic>
+      <positionX>533</positionX>
+      <positionY>20</positionY>
+      <inhibitTransfer>false</inhibitTransfer>
+      <stateType>1</stateType>
+      <bpmnType>120</bpmnType>
+      <signalId>0</signalId>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>42</sequence>
+      </processStatePK>
+      <stateName>End</stateName>
+      <stateDescription>End</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>680</positionX>
+      <positionY>352</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>60</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+  </list>
+  <list>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <expressionOrder>1</expressionOrder>
+        <version>13</version>
+        <sequence>52</sequence>
+      </conditionProcessStatePK>
+      <condition>hAPI.getCardValue(&quot;AVALIACAO_USUARIO&quot;) == &quot;SIM&quot;</condition>
+      <destinationSequenceId>40</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+    <ConditionProcessState>
+      <conditionProcessStatePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <expressionOrder>2</expressionOrder>
+        <version>13</version>
+        <sequence>52</sequence>
+      </conditionProcessStatePK>
+      <condition>hAPI.getCardValue(&quot;AVALIACAO_USUARIO&quot;) == &quot;NAO&quot;</condition>
+      <destinationSequenceId>49</destinationSequenceId>
+      <conditionType>0</conditionType>
+    </ConditionProcessState>
+  </list>
+  <list>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>31</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>true</returnPermited>
+      <initialStateSequence>8</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>43</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>40</initialStateSequence>
+      <finalStateSequence>42</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>45</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>33</initialStateSequence>
+      <finalStateSequence>44</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>48</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>9</initialStateSequence>
+      <finalStateSequence>33</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>53</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>44</initialStateSequence>
+      <finalStateSequence>52</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>54</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>52</initialStateSequence>
+      <finalStateSequence>49</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>55</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>52</initialStateSequence>
+      <finalStateSequence>40</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>56</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>49</initialStateSequence>
+      <finalStateSequence>44</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>58</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>33</initialStateSequence>
+      <finalStateSequence>57</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <linkSequence>59</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>57</initialStateSequence>
+      <finalStateSequence>33</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+  </list>
+  <list/>
+  <list>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>afterProcessCreate</eventId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function afterProcessCreate(processId){&#xd;
+    &#xd;
+	//Pega o valor do idchamado interno e seta o valor no html.&#xd;
+    hAPI.setCardValue(&quot;IDCHAMADO&quot;, processId); &#xd;
+    log.info(&quot;Idchamdo: &quot; + processId)&#xd;
+    &#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeCancelProcess</eventId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>//function beforeCancelProcess(colleagueId,processId){&#xd;
+//&#xd;
+//	 var Now_State =parseInt(getValue(&quot;WKNumState&quot;));&#xd;
+//	if(Now_State ==9){&#xd;
+//		&#xd;
+//		throw &quot;Você não pode cancelar uma solicitação atendida, favor fechar-la.&quot;; &#xd;
+//	}&#xd;
+//}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeTaskSave</eventId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function beforeTaskSave(){&#xd;
+	&#xd;
+	&#xd;
+&#xd;
+	var atividade = getValue(&quot;WKCurrentState&quot;);&#xd;
+	&#xd;
+	&#xd;
+	&#xd;
+	vencimentoSLA(atividade)&#xd;
+	consultaDataHora(atividade)&#xd;
+	dataFechamentoChamado()&#xd;
+	&#xd;
+	log.info(&quot;beforeTaskSave&quot;)&#xd;
+	&#xd;
+	if(atividade == 9 || atividade == 49 ||   atividade == 57){&#xd;
+		log.info(&quot;entrou if&quot;)&#xd;
+		var dataH = new Date();&#xd;
+		console.log( &quot;dataH&quot;+dataH )&#xd;
+		&#xd;
+		var d = dataH.getDate();&#xd;
+		var m = dataH.getMonth() + 1;&#xd;
+		var a = dataH.getFullYear();&#xd;
+		&#xd;
+		if (m &lt; 10) {&#xd;
+			m = &quot;0&quot; + m;&#xd;
+		}&#xd;
+		&#xd;
+		if (d &lt; 10) {&#xd;
+			d = &quot;0&quot; + d;&#xd;
+		}&#xd;
+		&#xd;
+		var dia = d + &quot;/&quot; + m + &quot;/&quot; + a;&#xd;
+&#xd;
+		var h = dataH.getHours();&#xd;
+		var m = dataH.getMinutes();&#xd;
+		&#xd;
+		if (h &lt; 10) {&#xd;
+			h = &quot;0&quot; + h;&#xd;
+		}&#xd;
+	&#xd;
+		if (m &lt; 10) {&#xd;
+			m = &quot;0&quot; + m;&#xd;
+		}&#xd;
+		&#xd;
+		var hor = h + &quot;:&quot; + m;&#xd;
+		&#xd;
+		var dataFull = dia + &quot; &quot; + hor;&#xd;
+		&#xd;
+&#xd;
+		if (atividade == 9){ &#xd;
+			log.info(&quot;FINALIZACAO_REVISAO&quot; +atividade )&#xd;
+			hAPI.setCardValue(&quot;DATAFECHAMENTO&quot;, dataFull)&#xd;
+		}&#xd;
+		&#xd;
+		if (atividade == 57){ &#xd;
+			log.info(&quot;FINALIZACAO_REVISAO&quot; +atividade )&#xd;
+			hAPI.setCardValue(&quot;DATAFECHAMENTO&quot;, dataFull)&#xd;
+		}&#xd;
+	&#xd;
+	&#xd;
+		if (atividade == 49){ &#xd;
+			log.info(&quot;FINALIZACAO_REVISAO&quot; +atividade )&#xd;
+			hAPI.setCardValue(&quot;FINALIZACAO_REVISAO&quot;, dataFull)&#xd;
+		}&#xd;
+		&#xd;
+		&#xd;
+		&#xd;
+		&#xd;
+	}&#xd;
+}&#xd;
+&#xd;
+function vencimentoSLA(atividade){&#xd;
+	&#xd;
+	&#xd;
+	var FINALIZACAO_REVISAO = hAPI.getCardValue&#xd;
+	(&quot;FINALIZACAO_REVISAO&quot;);&#xd;
+	&#xd;
+	if (atividade == 33){ &#xd;
+		&#xd;
+		log.info(&quot;C&quot; +atividade )&#xd;
+&#xd;
+	&#xd;
+	//window[&quot;TRANSFERECHAMADO&quot;].clear()&#xd;
+	var text = hAPI.getCardValue(&quot;SLAEXTENSO&quot;)&#xd;
+	console.log(&quot;ENTROU VENCIENTO Sla&quot;)&#xd;
+	var myArray = text.split(&quot; &quot;);&#xd;
+	var data = myArray[0].split(&quot;/&quot;);&#xd;
+	var hora = myArray[1].split(&quot;:&quot;);&#xd;
+	&#xd;
+	var dia = data[0];&#xd;
+	log.info(&quot;variavel dia: &quot; + dia)&#xd;
+	var meses = data[1];&#xd;
+	log.info(&quot;variavel meses: &quot; + meses)&#xd;
+	var ano = data[2];&#xd;
+	log.info(&quot;variavel ano: &quot; + ano)&#xd;
+	var h = hora[0];&#xd;
+	log.info(&quot;variavel h: &quot; + h)&#xd;
+	var m = hora[1];&#xd;
+	log.info(&quot;variavel m: &quot; + m)&#xd;
+	&#xd;
+	var mesjs = meses -1&#xd;
+	log.info(&quot;variavel mesjs: &quot; + mesjs)&#xd;
+	&#xd;
+	var dataVencimentoSLA= new Date(ano, mesjs, dia, h, m, &quot;00&quot;)&#xd;
+&#xd;
+	log.info(&quot;=================================&quot;)&#xd;
+	log.info(&quot;variavel dataVencimentoSLA: &quot; + dataVencimentoSLA)&#xd;
+&#xd;
+	&#xd;
+	var DATAFECHAMENTO = parseInt(hAPI.getCardValue(&quot;DATAFECHAMENTO&quot;));&#xd;
+&#xd;
+&#xd;
+  	&#xd;
+  	&#xd;
+   if (dataVencimentoSLA &gt; DATAFECHAMENTO){&#xd;
+  		hAPI.setCardValue(&quot;VENCIMENTOSLA&quot;,&quot;SLA Atendido&quot;);&#xd;
+  		log.info(&quot;SLA Atendido: &quot;+dataVencimentoSLA )&#xd;
+  	}&#xd;
+ &#xd;
+  	else if (dataVencimentoSLA &lt; DATAFECHAMENTO){&#xd;
+  		hAPI.setCardValue(&quot;VENCIMENTOSLA&quot;,&quot;SLA Violado&quot;);&#xd;
+  		&#xd;
+  		log.info(&quot;dSLA Violadooc: &quot;+dataVencimentoSLA )&#xd;
+  		//19/10/2022 15:32 19/10/2022 17:31&#xd;
+  	}&#xd;
+   &#xd;
+  &#xd;
+  	&#xd;
+  }&#xd;
+	&#xd;
+	if (atividade == 40 &amp;&amp; FINALIZACAO_REVISAO != &quot;&quot;){ &#xd;
+		&#xd;
+			log.info(&quot;vencimentoSLA&quot; +atividade )&#xd;
+		&#xd;
+		//window[&quot;TRANSFERECHAMADO&quot;].clear()&#xd;
+		var text = hAPI.getCardValue(&quot;SLA_REVISAO&quot;);&#xd;
+		log.info(&quot;ENTROU VENCIENTO Sla&quot;)&#xd;
+		var myArray = text.split(&quot; &quot;);&#xd;
+		var data = myArray[0].split(&quot;/&quot;);&#xd;
+		var hora = myArray[1].split(&quot;:&quot;);&#xd;
+		&#xd;
+		var dia = data[0];&#xd;
+		log.info(&quot;variavel dia: &quot; + dia)&#xd;
+		var meses = data[1];&#xd;
+		log.info(&quot;variavel meses: &quot; + meses)&#xd;
+		var ano = data[2];&#xd;
+		log.info(&quot;variavel ano: &quot; + ano)&#xd;
+		var h = hora[0];&#xd;
+		log.info(&quot;variavel h: &quot; + h)&#xd;
+		var m = hora[1];&#xd;
+		log.info(&quot;variavel m: &quot; + m)&#xd;
+		&#xd;
+		var mesjs = meses -1&#xd;
+		log.info(&quot;variavel mesjs: &quot; + mesjs)&#xd;
+		&#xd;
+		var dataVencimentoSLA= new Date(ano, mesjs, dia, h, m, &quot;00&quot;)&#xd;
+&#xd;
+		log.info(&quot;=================================&quot;)&#xd;
+		log.info(&quot;variavel dataVencimentoSLA: &quot; + dataVencimentoSLA)&#xd;
+		&#xd;
+		var FINALIZACAO_REVISAO = parseInt( hAPI.getCardValue(&quot;FINALIZACAO_REVISAO&quot;));&#xd;
+	  	&#xd;
+			&#xd;
+			 if (dataVencimentoSLA &gt; FINALIZACAO_REVISAO ){&#xd;
+		  		hAPI.setCardValue(&quot;VENCIMENTO_REVISAO&quot;,&quot;SLA Atendido&quot;);&#xd;
+		  		log.info(&quot;SLA Atendido: &quot;+dataVencimentoSLA)&#xd;
+		  	}&#xd;
+			&#xd;
+			else if (dataVencimentoSLA &lt; FINALIZACAO_REVISAO){&#xd;
+		  		hAPI.setCardValue(&quot;VENCIMENTO_REVISAO&quot;,&quot;SLA Violado&quot;);&#xd;
+	  			log.info(&quot;dSLA Violadooc: &quot;+dataVencimentoSLA)&#xd;
+	  			&#xd;
+		  	}&#xd;
+	  }&#xd;
+&#xd;
+}&#xd;
+function consultaDataHora(atividade){&#xd;
+	&#xd;
+	console.log(&quot;consultaDataHora&quot;  + atividade )&#xd;
+	var atividade2 = getValue(&quot;WKNextState&quot;);&#xd;
+	hAPI.setCardValue(&quot;NUM_PROX_ATIVIDADE&quot;,atividade2)&#xd;
+	&#xd;
+	&#xd;
+		if (atividade == 9){ &#xd;
+					console.log(&quot;consultaDataHora ATV9&quot; )&#xd;
+					console.log(&quot;ATIVIDADE&quot; +atividade )&#xd;
+					var c1 = DatasetFactory.createConstraint(&quot;processTaskPK.processInstanceId&quot;, hAPI.getCardValue(&quot;IDCHAMADO&quot;),hAPI.getCardValue(&quot;IDCHAMADO&quot;), ConstraintType.MUST);&#xd;
+				&#xd;
+					var c2 = DatasetFactory.createConstraint(&quot;closureStatus&quot;, 0, 0, ConstraintType.MUST);&#xd;
+					var constraints = new Array(c1,c2);&#xd;
+							try{&#xd;
+								console.log(&quot;entrou try&quot;)&#xd;
+								var dataset = DatasetFactory.getDataset(&quot;processTask&quot;, null, constraints, null);&#xd;
+								 var row = dataset.values[0];  &#xd;
+									console.log(row)&#xd;
+								 &#xd;
+								var description = row[&quot;deadline&quot;]; // variavel receber o data do ultimo processo  do dataset (Campo Descriação do incidente)   &#xd;
+								console.log(description)&#xd;
+								&#xd;
+											if( description != null){ &#xd;
+											console.log( &quot;description&quot;+description )&#xd;
+											// início da função&#xd;
+											var dataH = new Date(description);&#xd;
+											console.log( &quot;dataH&quot;+dataH )&#xd;
+											&#xd;
+											var d = dataH.getDate();&#xd;
+											var m = dataH.getMonth() + 1;&#xd;
+											var a = dataH.getFullYear();&#xd;
+											&#xd;
+											if (m &lt; 10) {&#xd;
+												m = &quot;0&quot; + m;&#xd;
+											}&#xd;
+											&#xd;
+											if (d &lt; 10) {&#xd;
+												d = &quot;0&quot; + d;&#xd;
+											}&#xd;
+											&#xd;
+											var dia = d + &quot;/&quot; + m + &quot;/&quot; + a;&#xd;
+									&#xd;
+											var h = dataH.getHours();&#xd;
+											var m = dataH.getMinutes();&#xd;
+											&#xd;
+											if (h &lt; 10) {&#xd;
+												h = &quot;0&quot; + h;&#xd;
+											}&#xd;
+										&#xd;
+											if (m &lt; 10) {&#xd;
+												m = &quot;0&quot; + m;&#xd;
+											}&#xd;
+											&#xd;
+											var hor = h + &quot;:&quot; + m;&#xd;
+											&#xd;
+											var dataFull = dia + &quot; &quot; + hor;&#xd;
+											console.log(&quot;Data &quot;+dataFull)&#xd;
+											&#xd;
+											var campoSLAExtenso&#xd;
+											try{&#xd;
+												campoSLAExtenso = document.getElementById(&quot;SLAEXTENSO&quot;)&#xd;
+											} catch (e){&#xd;
+												console.log(&quot;errou 22 &quot;+dataFull)&#xd;
+											}&#xd;
+											campoSLAExtenso.value = dataFull;&#xd;
+											}&#xd;
+											//término da função&#xd;
+											&#xd;
+							}catch(e){&#xd;
+								console.log(e);&#xd;
+								console.log(&quot;errou:)))))) &quot;)&#xd;
+							}&#xd;
+	  }&#xd;
+	&#xd;
+	if (atividade == 49){ &#xd;
+					console.log(&quot;consultaDataHora ATV49&quot; )&#xd;
+					console.log(&quot;ATIVIDADE&quot; +atividade )&#xd;
+					console.log(&quot;entrou!!!!!teste&quot;)&#xd;
+					var c1 = DatasetFactory.createConstraint(&quot;processTaskPK.processInstanceId&quot;,hAPI.getCardValue(&quot;IDCHAMADO&quot;), hAPI.getCardValue(&quot;IDCHAMADO&quot;), ConstraintType.MUST);&#xd;
+					&#xd;
+					var c2 = DatasetFactory.createConstraint(&quot;closureStatus&quot;, 0, 0, ConstraintType.MUST);&#xd;
+					var constraints = new Array(c1,c2);&#xd;
+								try{&#xd;
+									console.log(&quot;entrou try&quot;)&#xd;
+									var dataset = DatasetFactory.getDataset(&quot;processTask&quot;, null, constraints, null);&#xd;
+									 var row = dataset.values[0];  &#xd;
+									 log.info(&quot;teste da row&quot;)	&#xd;
+									 log.info(row)&#xd;
+									 &#xd;
+									var description = row[&quot;deadline&quot;]; // variavel receber o data do ultimo processo  do dataset (Campo Descriação do incidente)   &#xd;
+									console.log(description)&#xd;
+									&#xd;
+									if( description != null){ &#xd;
+									console.log( &quot;description&quot;+description )&#xd;
+									// início da função&#xd;
+									var dataH = new Date(description);&#xd;
+									console.log( &quot;dataH&quot;+dataH )&#xd;
+									&#xd;
+									var d = dataH.getDate();&#xd;
+									var m = dataH.getMonth() + 1;&#xd;
+									var a = dataH.getFullYear();&#xd;
+									&#xd;
+									if (m &lt; 10) {&#xd;
+										m = &quot;0&quot; + m;&#xd;
+									}&#xd;
+									&#xd;
+									if (d &lt; 10) {&#xd;
+										d = &quot;0&quot; + d;&#xd;
+									}&#xd;
+									&#xd;
+									var dia = d + &quot;/&quot; + m + &quot;/&quot; + a;&#xd;
+						&#xd;
+									var h = dataH.getHours();&#xd;
+									var m = dataH.getMinutes();&#xd;
+									&#xd;
+									if (h &lt; 10) {&#xd;
+										h = &quot;0&quot; + h;&#xd;
+									}&#xd;
+								&#xd;
+									if (m &lt; 10) {&#xd;
+										m = &quot;0&quot; + m;&#xd;
+									}&#xd;
+									&#xd;
+									var hor = h + &quot;:&quot; + m;&#xd;
+									&#xd;
+									var dataFull = dia + &quot; &quot; + hor;&#xd;
+									console.log(&quot;Data &quot;+dataFull)&#xd;
+									&#xd;
+									var campoSLAExtenso&#xd;
+									try{&#xd;
+										campoSLAExtenso = document.getElementById(&quot;SLA_REVISAO&quot;)&#xd;
+									} catch (e){&#xd;
+										console.log(&quot;errou 22 &quot;+dataFull)&#xd;
+									}&#xd;
+									campoSLAExtenso.value = dataFull;&#xd;
+									}&#xd;
+									//término da função&#xd;
+									&#xd;
+								}catch(e){&#xd;
+									console.log(e);&#xd;
+									console.log(&quot;errou:)))))) &quot;)&#xd;
+								}&#xd;
+		}&#xd;
+	if (atividade == 57){ &#xd;
+					console.log(&quot;consultaDataHora ATV57&quot; )&#xd;
+					console.log(&quot;ATIVIDADE&quot; +atividade )&#xd;
+					console.log(&quot;entrou!!!!!teste&quot;)&#xd;
+					&#xd;
+					&#xd;
+					hAPI.setCardValue(&quot;VENCIMENTOSLA&quot;, &quot;Revisão&quot;)&#xd;
+					hAPI.setCardValue(&quot;DATAFECHAMENTO&quot;, &quot;&quot;)&#xd;
+					&#xd;
+					var c1 = DatasetFactory.createConstraint(&quot;processTaskPK.processInstanceId&quot;, hAPI.getCardValue(&quot;IDCHAMADO&quot;),hAPI.getCardValue(&quot;IDCHAMADO&quot;), ConstraintType.MUST);&#xd;
+					&#xd;
+					var c2 = DatasetFactory.createConstraint(&quot;closureStatus&quot;, 0, 0, ConstraintType.MUST);&#xd;
+					var constraints = new Array(c1,c2);&#xd;
+					&#xd;
+					&#xd;
+							try{&#xd;
+								console.log(&quot;entrou try&quot;)&#xd;
+								var dataset = DatasetFactory.getDataset(&quot;processTask&quot;, null, constraints, null);&#xd;
+								console.log(&quot;entrou try&quot;)&#xd;
+								 var row = dataset.values[0];  &#xd;
+									console.log(row)&#xd;
+								 &#xd;
+								var description = row[&quot;deadline&quot;]; // variavel receber o data do ultimo processo  do dataset (Campo Descriação do incidente)   &#xd;
+								console.log(description)&#xd;
+								&#xd;
+											if( description != null){ &#xd;
+											console.log( &quot;description&quot;+description )&#xd;
+											// início da função&#xd;
+											var dataH = new Date(description);&#xd;
+											console.log( &quot;dataH&quot;+dataH )&#xd;
+											&#xd;
+											var d = dataH.getDate();&#xd;
+											var m = dataH.getMonth() + 1;&#xd;
+											var a = dataH.getFullYear();&#xd;
+											&#xd;
+											if (m &lt; 10) {&#xd;
+												m = &quot;0&quot; + m;&#xd;
+											}&#xd;
+											&#xd;
+											if (d &lt; 10) {&#xd;
+												d = &quot;0&quot; + d;&#xd;
+											}&#xd;
+											&#xd;
+											var dia = d + &quot;/&quot; + m + &quot;/&quot; + a;&#xd;
+									&#xd;
+											var h = dataH.getHours();&#xd;
+											var m = dataH.getMinutes();&#xd;
+											&#xd;
+											if (h &lt; 10) {&#xd;
+												h = &quot;0&quot; + h;&#xd;
+											}&#xd;
+										&#xd;
+											if (m &lt; 10) {&#xd;
+												m = &quot;0&quot; + m;&#xd;
+											}&#xd;
+											&#xd;
+											var hor = h + &quot;:&quot; + m;&#xd;
+											&#xd;
+											var dataFull = dia + &quot; &quot; + hor;&#xd;
+											console.log(&quot;Data &quot;+dataFull)&#xd;
+											&#xd;
+											var campoSLAExtenso&#xd;
+											try{&#xd;
+												campoSLAExtenso = document.getElementById(&quot;SLAEXTENSO&quot;)&#xd;
+											} catch (e){&#xd;
+												console.log(&quot;errou 22 &quot;+dataFull)&#xd;
+											}&#xd;
+											campoSLAExtenso.value = dataFull;&#xd;
+											}&#xd;
+											//término da função&#xd;
+											&#xd;
+							}catch(e){&#xd;
+								console.log(e);&#xd;
+								console.log(&quot;errou:)))))) &quot;)&#xd;
+							}&#xd;
+		}&#xd;
+	&#xd;
+}&#xd;
+&#xd;
+function dataFechamentoChamado(){&#xd;
+	&#xd;
+	var ATIVIDADE = hAPI.getCardValue(&quot;NUM_ATIVIDADE&quot;);&#xd;
+	var STATUS_SOLICITACAO = hAPI.getCardValue(&quot;STATUS_SOLICITACAO&quot;);&#xd;
+	console.log(&quot;entrou dataReabertura&quot; + ATIVIDADE)&#xd;
+	var vencimentoSLA = hAPI.getCardValue(&quot;VENCIMENTOSLA&quot;);&#xd;
+	&#xd;
+	console.log(&quot;entrou dataReabertura &quot; + vencimentoSLA)&#xd;
+	&#xd;
+	if (ATIVIDADE == 40 &amp;&amp; STATUS_SOLICITACAO == &quot;FECHADO&quot; ){ &#xd;
+	console.log(&quot;entrou nesse if&quot;)&#xd;
+	 var date = new Date();&#xd;
+     console.log(date)&#xd;
+     var d = date.getDate();&#xd;
+		var m = date.getMonth() + 1;&#xd;
+		var a = date.getFullYear();&#xd;
+		&#xd;
+		if (m &lt; 10) {&#xd;
+			m = &quot;0&quot; + m;&#xd;
+		}&#xd;
+		&#xd;
+		if (d &lt; 10) {&#xd;
+			d = &quot;0&quot; + d;&#xd;
+		}&#xd;
+		&#xd;
+		var dia = d + &quot;/&quot; + m + &quot;/&quot; + a;&#xd;
+&#xd;
+		var h = date.getHours();&#xd;
+		var m = date.getMinutes();&#xd;
+		&#xd;
+		if ( h &lt; 10) {&#xd;
+			h = &quot;0&quot; + h;&#xd;
+		}&#xd;
+	&#xd;
+		if ( m &lt; 10) {&#xd;
+			m = &quot;0&quot; + m;&#xd;
+		}&#xd;
+&#xd;
+		var hor = h + &quot;:&quot; + m;&#xd;
+		&#xd;
+		var dataFull = dia + &quot; &quot; + hor;&#xd;
+		hAPI.setCardValue(&quot;FECHAMENTO_SOLICITACAO&quot;,dataFull)&#xd;
+		&#xd;
+		&#xd;
+	}&#xd;
+&#xd;
+     &#xd;
+}&#xd;
+&#xd;
+&#xd;
+</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>afterTaskSave</eventId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function afterTaskSave(colleagueId,nextSequenceId,userList){&#xd;
+//função que esta trocando o sla do chamado com validação diacordo com o valor escolhido no diagrama &#xd;
+	var atividade = getValue(&quot;WKCurrentState&quot;);&#xd;
+	var valorSLA = hAPI.getCardValue(&quot;SLA&quot;);&#xd;
+	var setValorSLA = hAPI.getCardValue(&quot;SLAGESTOR&quot;);&#xd;
+	var nowDate = new Date(); &#xd;
+	var prazoFormulario = nowDate.getDate()+&apos;/&apos;+(nowDate.getMonth()+1)+&apos;/&apos;+nowDate.getFullYear();&#xd;
+	var dataAtual = Date.now();&#xd;
+	&#xd;
+	&#xd;
+//	var oito = dataAtual +;&#xd;
+//	var dezesseis = dataAtual +;&#xd;
+//	var vintequatro = dataAtual +;&#xd;
+	&#xd;
+	log.info(&quot;Entrou Function: &quot; + atividade)&#xd;
+	log.info(&quot;prazo Formulario: &quot; + prazoFormulario)&#xd;
+	log.info(&quot;prazo Formulario: &quot; + nowDate)&#xd;
+	&#xd;
+	&#xd;
+    // Atividade de sequência 5 é a da tarefa criada e que vou alterar o prazo de conclusão&#xd;
+    if (atividade == 9 &amp;&amp; setValorSLA != &quot;0&quot;) {&#xd;
+    	&#xd;
+    	log.info(&quot;valor sla&quot; + setValorSLA)&#xd;
+    				&#xd;
+    	&#xd;
+    	&#xd;
+    								log.info(&quot;Novo prazo&quot; + setValorSLA)&#xd;
+    	&#xd;
+						        // Recuperando a data informada no campo do formulário&#xd;
+						        if (prazoFormulario != undefined &amp;&amp; prazoFormulario != &apos;&apos;) {&#xd;
+&#xd;
+    								log.info(&quot;Entrou IF 1 After Task Save Não vazio: &quot; + setValorSLA)&#xd;
+						            var numeroDaSolicitacao = getValue(&apos;WKNumProces&apos;);&#xd;
+						            var threadDaSolicitacao = 0; // Normalmente 0, quando não for atividade paralela&#xd;
+						            var responsavelPelaTarefa = colleagueId;&#xd;
+						             &#xd;
+						            /* Nesse caso o formato da data salva pelo formulário no exemplo é DD/MM/AAAA, mas isso pode variar de acordo com a formatação utilizada, &#xd;
+						               mudando assim as posições das informações dentro do array */&#xd;
+						             /*01/07/2022*/&#xd;
+						            /* Extrai os dados da data do formulário para um array, para posteriormente transformar em data do Javascript */&#xd;
+						            var arrayPrazoConclusao = prazoFormulario.split(&quot;/&quot;);&#xd;
+						            var dia = arrayPrazoConclusao[0]; // Posição 0 do array é o dia&#xd;
+						            var mes = arrayPrazoConclusao[1] - 1; // Posição 1 do array é o mês (Subtraímos 1 porque na data do Javascript o mês vai de 0 a 11)&#xd;
+						            var ano = arrayPrazoConclusao[2]; // Posição 2 do array é o ano&#xd;
+						          &#xd;
+						            var horaDoPrazo = (15*60*60) - 1; /* A hora é em milisegundos, e esse cálculo tem resultado de 23:59:59, ou seja, &#xd;
+						            o prazo de conclusão vai ser até o último segundo do dia informado no formulário */&#xd;
+						           try{&#xd;
+						            // Cria a data no Javascript&#xd;
+						            var dataDoPrazo = new Date();&#xd;
+						            dataDoPrazo.setDate(dia);&#xd;
+						            dataDoPrazo.setMonth(mes);&#xd;
+						            dataDoPrazo.setFullYear(ano);&#xd;
+						            &#xd;
+						            //Calcula o prazo&#xd;
+						            var obj = hAPI.calculateDeadLineHours(dataDoPrazo, 50000, setValorSLA , &quot;Central de Cadastro - Cli/For&quot;);&#xd;
+						            var dt = obj[0];&#xd;
+						            var segundos = obj[1];&#xd;
+						            log.info(&quot;data do prazo: &quot;+dataDoPrazo)&#xd;
+						            log.info(&quot;numeroDaSolicitacao: &quot;+numeroDaSolicitacao)&#xd;
+						            log.info(&quot;threadDaSolicitacao: &quot;+threadDaSolicitacao)&#xd;
+						            log.info(&quot;responsavelPelaTarefa: &quot;+responsavelPelaTarefa)&#xd;
+						            log.info(&quot;dataDoPrazo: &quot;+dt)&#xd;
+						            log.info(&quot;horaDoPrazo: &quot;+segundos)&#xd;
+						             &#xd;
+						            &#xd;
+						            &#xd;
+						            // Altera o prazo de conclusão&#xd;
+						            hAPI.setDueDate(numeroDaSolicitacao, threadDaSolicitacao, responsavelPelaTarefa, dt, segundos);&#xd;
+						           &#xd;
+						            log.info(&quot;--------after--------- &quot;+dataDoPrazo)&#xd;
+						            log.info(&quot;data do prazo: &quot;+dataDoPrazo)&#xd;
+						            log.info(&quot;numeroDaSolicitacao: &quot;+numeroDaSolicitacao)&#xd;
+						            log.info(&quot;threadDaSolicitacao: &quot;+threadDaSolicitacao)&#xd;
+						            log.info(&quot;responsavelPelaTarefa: &quot;+responsavelPelaTarefa)&#xd;
+						            log.info(&quot;dataDoPrazo: &quot;+dt)&#xd;
+						            log.info(&quot;horaDoPrazo: &quot;+segundos)&#xd;
+						            log.info(&quot;Try Executado with successo&quot;) &#xd;
+						            console.log(&quot;dataDoPrazo&quot;+dataDoPrazo)&#xd;
+						           }catch (mistake){&#xd;
+						        	   log.info(&quot;erro do catch&quot; + mistake)&#xd;
+					        	   }&#xd;
+&#xd;
+    }&#xd;
+ }&#xd;
+}&#xd;
+</eventDescription>
+    </WorkflowProcessEvent>
+  </list>
+  <list/>
+  <list>
+    <SwimLane>
+      <color>FFFFFF</color>
+      <height>431</height>
+      <width>841</width>
+      <positionX>0</positionX>
+      <positionY>10</positionY>
+      <stateName>Portal Marketing</stateName>
+      <type>1</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>1</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>FF8040</color>
+      <height>143</height>
+      <width>811</width>
+      <positionX>30</positionX>
+      <positionY>10</positionY>
+      <stateName>Solicitante</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>2</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>FF8080</color>
+      <height>143</height>
+      <width>811</width>
+      <positionX>30</positionX>
+      <positionY>153</positionY>
+      <stateName>Suporte</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>3</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>adc9ac</color>
+      <height>145</height>
+      <width>811</width>
+      <positionX>30</positionX>
+      <positionY>296</positionY>
+      <stateName>Validação do Escopo</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>1</version>
+        <sequence>7</sequence>
+      </swimLanePK>
+    </SwimLane>
+  </list>
+  <list/>
+  <list/>
+  <list>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>13</version>
+        <linkSequence>45</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>401</positionX>
+      <positionY>367</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>13</version>
+        <linkSequence>55</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>697</positionX>
+      <positionY>71</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>13</version>
+        <linkSequence>56</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>402</positionX>
+      <positionY>222</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>13</version>
+        <linkSequence>58</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>302</positionX>
+      <positionY>366</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <version>13</version>
+        <linkSequence>59</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>302</positionX>
+      <positionY>366</positionY>
+    </ProcessLinkBend>
+  </list>
+  <list/>
+  <list/>
+  <list>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <fieldId>N_SOLICITACAO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>N_SOLICITACAO</fieldDescription>
+      <slotId>1</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <fieldId>SUB_CLASS_SERVICO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>SUB_CLASS_SERVICO</fieldDescription>
+      <slotId>2</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <fieldId>CLASS_SERVICO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>CLASS_SERVICO</fieldDescription>
+      <slotId>3</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <fieldId>DESCRICAOSOLICITACAO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>DESCRICAOSOLICITACAO</fieldDescription>
+      <slotId>4</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <fieldId>DATAABERTURA</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>DATAABERTURA</fieldDescription>
+      <slotId>5</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <fieldId>SLAEXTENSO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>SLAEXTENSO</fieldDescription>
+      <slotId>6</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <fieldId>VENCIMENTOSLA</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>VENCIMENTOSLA</fieldDescription>
+      <slotId>7</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <fieldId>DATAFECHAMENTO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>DATAFECHAMENTO</fieldDescription>
+      <slotId>8</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>Portal Marketing</processId>
+        <fieldId>IDCHAMADO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>IDCHAMADO</fieldDescription>
+      <slotId>9</slotId>
+    </ProcessFormField>
+  </list>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+</list>
